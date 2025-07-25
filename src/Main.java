@@ -40,8 +40,11 @@ public class Main {
 
         } else if (decide.equals("dinero")) {
 
+//  aqui empieza la primera parte que es de productos y eso hace una lista para agregar los datos yu luego mostrarlo en la pantalla
+            // asi suceciva menta sucede con dinero
 
-                System.out.println("Muy bien la lista se creara apartir de la cantidad que le asigne");
+
+            System.out.println("Muy bien la lista se creara apartir de la cantidad que le asigne");
                 System.out.println("Igrese la cantidad:");
                 int decideNum = lecTecla.nextInt();
 
