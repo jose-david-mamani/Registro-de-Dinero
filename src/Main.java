@@ -12,7 +12,8 @@ public class Main {
 
         System.out.println("por donde quiere empezar a registrar, desde la cantidad de productos o la cantidad de dinero");
         String decide = lecTecla.next();
-
+//  aqui empieza la primera parte que es de productos y eso hace una lista para agregar los datos yu luego mostrarlo en la pantalla
+        // asi suceciva menta sucede con dinero
 
         if (decide.equals("productos")) {
 
