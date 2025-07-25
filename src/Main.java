@@ -21,27 +21,42 @@ public class Main {
             int decideNum = lecTecla.nextInt();
             int i = 0 ;
 
-            while (i > decideNum);
-            System.out.println(txt1);
-            decide= lecTecla.next();
-            List<String> listaDeProductos = new ArrayList<>(decideNum*2);
-            listaDeProductos.add(decide);
-            System.out.println(txt2);
-            decide = lecTecla.next();
-            listaDeProductos.add(decide);
+            for (int j = 0; j < decideNum; j++) {
+                System.out.println(txt1);
+                decide = lecTecla.next();
+                List<String> listaDeProductos = new ArrayList<>(decideNum * 2);
+                listaDeProductos.add(decide);
+                System.out.println(txt2);
+                decide = lecTecla.next();
+                listaDeProductos.add(decide);
 
-            System.out.println(listaDeProductos.get(1));
+            for (String nombre : listaDeProductos ) {
+                System.out.println("Nombre: " + listaDeProductos);
+            }}
 
              // logica de agregado de datos a la lsta , y luego cuando quiera terminar o finalizar que se se muestre o que agrego ala lista
              //para verificar si le falta algun dato para agregar a la lista
 
         } else if (decide.equals("dinero")) {
 
-            System.out.println("Cuánto dinero posee para gastar?        (ingrese numeros) ");
-            int dineroDispone = lecTecla.nextInt();
-            if (dineroDispone > 0) {
-                System.out.println("su dinero es " + dineroDispone);
-                String[] listaDeProductos = new String[6];
+
+                System.out.println("Muy bien la lista se creara apartir de la cantidad que le asigne");
+                System.out.println("Igrese la cantidad:");
+                int decideNum = lecTecla.nextInt();
+                int i = 0 ;
+
+                for (int j = 0; j < decideNum; j++) {
+                    System.out.println(txt1);
+                    decide = lecTecla.next();
+                    List<String> listaDeProductos = new ArrayList<>(decideNum * 2);
+                    listaDeProductos.add(decide);
+                    System.out.println(txt2);
+                    decide = lecTecla.next();
+                    listaDeProductos.add(decide);
+
+                    for (String nombre : listaDeProductos ) {
+                        System.out.println("Nombre: " + listaDeProductos);
+                    }}
 
             } else {
                 System.out.println("ingrese un numero positivo || ingrese un dato valido");
@@ -52,4 +67,4 @@ public class Main {
 
 
     }
-}
+
