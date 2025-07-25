@@ -19,7 +19,7 @@ public class Main {
             System.out.println("Muy bien la lista se creara apartir de la cantidad que le asigne");
             System.out.println("Igrese la cantidad:");
             int decideNum = lecTecla.nextInt();
-            int i = 0 ;
+
 
             for (int j = 0; j < decideNum; j++) {
                 System.out.println(txt1);
@@ -30,8 +30,8 @@ public class Main {
                 decide = lecTecla.next();
                 listaDeProductos.add(decide);
 
-            for (String nombre : listaDeProductos ) {
-                System.out.println("Nombre: " + listaDeProductos);
+            for (String lol : listaDeProductos ) {
+                System.out.println("Nombre: " + lol);
             }}
 
              // logica de agregado de datos a la lsta , y luego cuando quiera terminar o finalizar que se se muestre o que agrego ala lista
@@ -43,7 +43,7 @@ public class Main {
                 System.out.println("Muy bien la lista se creara apartir de la cantidad que le asigne");
                 System.out.println("Igrese la cantidad:");
                 int decideNum = lecTecla.nextInt();
-                int i = 0 ;
+
 
                 for (int j = 0; j < decideNum; j++) {
                     System.out.println(txt1);
@@ -54,8 +54,8 @@ public class Main {
                     decide = lecTecla.next();
                     listaDeProductos.add(decide);
 
-                    for (String nombre : listaDeProductos ) {
-                        System.out.println("Nombre: " + listaDeProductos);
+                    for (String lol : listaDeProductos ) {
+                        System.out.println("Nombre: " + lol);
                     }}
 
             } else {
